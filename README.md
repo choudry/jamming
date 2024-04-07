@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+## Jamming: Spotify Playlist Builder with Search and Save Functionality
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description:
 
-## Available Scripts
+This React project empowers you to curate and save personalized playlists using the Spotify API. It offers a streamlined user experience for searching, adding tracks, and managing your playlist.
 
-In the project directory, you can run:
+## Features:
 
-### `npm start`
+Seamless Track Search: Effortlessly find tracks you adore using the integrated search field.
+Intuitive Playlist Management: Add tracks to your playlist with a simple click. The results table on the left displays your search results, while the right side showcases your evolving playlist.
+Customizable Playlist Name: Grant your playlist a unique identity by assigning a descriptive name.
+Spotify Integration: Leverage the power of the Spotify API to seamlessly save your crafted playlist to your Spotify account (requires valid API credentials).
+Technologies:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## React: JavaScript library for building dynamic user interfaces.
+Spotify API: Enables interaction with Spotify's functionalities.
+Setup:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Clone this repository.
+Install dependencies using npm install.
+Obtain a Spotify Developer Account and generate API credentials (Client ID and Client Secret).
+Configure the Spotify API keys in your project's environment variables (consult with documentation for specific steps).
+How to Use:
 
-### `npm test`
+Start the development server using npm start.
+Enter a search term in the search field.
+Click the "Add" button next to a track to include it in your playlist.
+Give your playlist a memorable name.
+Click "Save to Spotify" to connect your list with your Spotify account (authentication flow may vary).
+Contribution:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+We welcome contributions to enhance this project! Feel free to create pull requests for bug fixes, feature improvements, or code style suggestions.
 
-### `npm run build`
+https://github.com/choudry/jamming/assets/13165430/c5bc67d1-831d-4306-8880-ec0f179893d1
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
