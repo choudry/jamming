@@ -1,0 +1,50 @@
+.track_list {
+    background-color: transparent;
+    opacity: 0.7;
+    width: 400px;
+    max-height: 600px;
+    overflow-y: auto;
+    border: 0.1rem gray solid;
+    border-radius: 1rem;
+    margin-right: 20px;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#playlist_name {
+    border: none;
+    border-bottom: 0.1rem solid gray;
+    background-color: transparent; 
+    margin: 0.5rem; 
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    width: 80%;
+    color: white;
+    outline: none;
+}
+
+#save {
+    background-color: #dfe35f;
+    padding: 0.5rem 1.5rem;
+    border: 0.15rem solid gray;
+    max-width: 50%;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    transition: background-color .25s;
+    cursor: pointer;
+}
+
+#save:hover {
+    background-color: grey;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);  /* Add subtle shadow on hover (optional) */
+  }

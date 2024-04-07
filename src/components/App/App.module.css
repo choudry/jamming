@@ -1,0 +1,43 @@
+html {
+  font-size: 16px;
+}
+
+html, body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('background_photo.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.App {
+  font-family: "Work Sans", sans-serif;
+}
+
+.highlight {
+  color: rgb(225, 225, 63);
+}
+
+.search_button_container {
+  display: flex;
+  justify-content: center;
+}
+
+.search_button {
+  width: 14rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: burlywood;  
+}
+
+.main_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+}
+

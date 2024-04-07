@@ -1,0 +1,15 @@
+#search_bar_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 2rem;
+}
+
+#search_input {
+    width: 50%;
+    height: 2rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+}
