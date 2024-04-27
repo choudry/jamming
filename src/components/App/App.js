@@ -4,6 +4,7 @@ import { SearchBar } from '../SearchBar/SearchBar';
 import SearchResult from '../SearchResult/SearchResult';
 import TrackList from '../TrackList/TrackList';
 import {searchTracks, Spotify} from '../../API/api';
+
 function App() {
   const [searchTerm, setSearchTerm] = useState("Maulaya Salli Wa Salim");
   const [searchResult, setSearchResult] = useState([]);
@@ -62,17 +63,15 @@ function App() {
     
   }
 
- 
-
   return (
     <div className={styles.App}>
-      <h1>
+      <h1 data-testid="main_heading">
        Ja<span className={styles.highlight}>mm</span>ing
        </h1>
       <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
 
       <div className={styles.search_button_container}>
-        <button className={styles.search_button} onClick={() => (search())}>Search</button>
+        <button className={styles.search_button} data-testid="searchButton" onClick={() => (search())}>Search</button>
       </div>
 
       <div className={styles.main_container}>
